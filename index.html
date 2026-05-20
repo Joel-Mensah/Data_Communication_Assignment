@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Data Communication | Joel Nii Amartey Mensah</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<!-- SCROLL PROGRESS BAR -->
+<div class="progress-bar" id="progress-bar"></div>
+
+<!-- BACK TO TOP -->
+<a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- ============================================================
+     NAVIGATION — FIXED STICKY
+     ============================================================ -->
+<nav role="navigation" aria-label="Main navigation">
+  <div class="nav-brand">Joel N. A. <span>Mensah</span></div>
+
+  <!-- Hamburger for mobile -->
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="nav-links">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#telegraph">Telegraph</a>
+    <a href="#topics">Topics</a>
+    <a href="#video">Video</a>
+    <a href="#inspiration">Inspiration</a>
+    <a href="#courses">Courses</a>
+    <a href="#resources">Resources</a>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="home">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-photo-wrapper">
+      <img src="image/Mine.jpg" alt="Joel Nii Amartey Mensah"/>
+    </div>
+    <div class="hero-badge">
+      <i class="fas fa-satellite" style="font-size:0.7rem;"></i>
+      BSc. Information Technology &middot; Level 200
+    </div>
+    <h1 class="hero-name">Joel Nii Amartey Mensah</h1>
+    <p class="hero-id">
+      <i class="fas fa-id-card" style="font-size:0.75rem; opacity:0.6;"></i>
+      &nbsp;PUIT/24110004 &nbsp;&bull;&nbsp; Data Communication
+    </p>
+    <p class="hero-subtitle">
+      Exploring the principles, history, and future of data communication &mdash;
+      from the telegraph to satellite networks and beyond.
+    </p>
+    <div class="hero-ctas">
+      <a href="#about" class="btn-primary">
+        <i class="fas fa-user" style="margin-right:0.4rem;"></i>About Me
+      </a>
+      <a href="#topics" class="btn-outline">
+        <i class="fas fa-book-open" style="margin-right:0.4rem;"></i>Course Summary
+      </a>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     STATS STRIP
+     ============================================================ -->
+<div class="stats-strip">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-num" data-target="35786" data-suffix=" km">0 km</div>
+      <div class="stat-label">GEO Orbit Altitude</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" data-target="1" data-suffix=" Tbps">0 Tbps</div>
+      <div class="stat-label">HTS Peak Capacity</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" data-target="23000" data-suffix="+">0+</div>
+      <div class="stat-label">Tracked Debris Objects</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" data-target="2.6" data-suffix="B" data-float="true">0B</div>
+      <div class="stat-label">People Without Internet</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="image/Mine.jpg" alt="Joel Nii Amartey Mensah — Profile Picture"/>
+      </div>
+      <div class="about-info">
+        <span class="section-label"><i class="fas fa-user-circle"></i> About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+        <p>I am <strong>Joel Nii Amartey Mensah</strong>, a driven second-year BSc. Information Technology
+        student with a passion for understanding how the world exchanges information. From the first signals
+        tapped out in Morse code to terabytes of data beaming down from satellites orbiting the Earth,
+        I am fascinated by the technologies that connect humanity.</p>
+        <p>Currently studying Data Communication at the undergraduate level, I am building a solid foundation
+        in network architectures, transmission media, signal theory, and the evolving landscape of satellite
+        and wireless technologies. I believe that understanding how data moves is fundamental to shaping a
+        better-connected world.</p>
+        <p>When I am not studying, I enjoy exploring tech trends, engaging in problem-solving, and thinking
+        about how emerging technologies like AI and 6G will transform global communications infrastructure
+        in the coming decade.</p>
+
+        <div class="about-tags">
+          <span class="tag">Data Communication</span>
+          <span class="tag">Networking</span>
+          <span class="tag">Satellite Systems</span>
+          <span class="tag">IT Student</span>
+          <span class="tag">PUIT/24110004</span>
+        </div>
+
+        <div class="info-row">
+          <div class="info-card">
+            <div class="label">Program</div>
+            <div class="value">BSc. Information Technology</div>
+          </div>
+          <div class="info-card">
+            <div class="label">Level</div>
+            <div class="value">200 &ndash; 2nd Semester</div>
+          </div>
+          <div class="info-card">
+            <div class="label">Course</div>
+            <div class="value">Data Communication</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TELEGRAPH
+     ============================================================ -->
+<section id="telegraph">
+  <div class="container">
+    <span class="section-label"><i class="fas fa-bolt"></i> Historical Roots</span>
+    <h2 class="section-title">The Telegraph: Where It All Began</h2>
+    <p class="section-desc" style="color:#7a9fc0;">
+      Long before satellites and fiber optics, the telegraph was the internet of its era &mdash;
+      the first system to transmit information instantly over long distances.
+    </p>
+    <div class="telegraph-wrap">
+      <div class="telegraph-text">
+        <p>The electric telegraph, developed in the 1830s&ndash;1840s by Samuel Morse and Charles Wheatstone,
+        was humanity&rsquo;s first step toward real-time long-distance communication. By converting text into
+        electrical signals sent over wires, it collapsed the tyranny of distance and transformed commerce,
+        journalism, and warfare.</p>
+        <h3>How It Worked</h3>
+        <p>A telegraph operator pressed a key to complete an electrical circuit, sending a pulse of current
+        down a wire. Short pulses (dots) and longer pulses (dashes) &mdash; Morse code &mdash; encoded
+        letters and numbers. A receiving station&rsquo;s electromagnet clicked in response, and a trained
+        operator decoded the message.</p>
+        <h3>Why It Matters in Data Communication</h3>
+        <p>The telegraph established the core concepts still alive today: encoding information, transmitting
+        signals over a medium, dealing with signal degradation, and decoding at the receiver. Every modern
+        communication system &mdash; from TCP/IP to satellite links &mdash; traces its conceptual lineage
+        to this humble invention.</p>
+        <h3>Legacy</h3>
+        <p>The undersea telegraph cable laid across the Atlantic in 1866 was the &ldquo;internet cable&rdquo;
+        of its day. It inspired Arthur C. Clarke&rsquo;s vision of satellite relay stations &mdash; the
+        direct ancestor of today&rsquo;s global satellite infrastructure.</p>
+      </div>
+
+      <div class="telegraph-svg-wrap">
+        <svg viewBox="0 0 520 380" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, sans-serif">
+          <rect width="520" height="380" fill="#0d1f3c" rx="12"/>
+          <text x="260" y="30" text-anchor="middle" fill="#93c5fd" font-size="13" font-weight="600" letter-spacing="1">TELEGRAPH COMMUNICATION SYSTEM</text>
+
+          <!-- STATION A -->
+          <g transform="translate(30,60)">
+            <rect width="130" height="80" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1.5"/>
+            <text x="65" y="22" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="700">STATION A</text>
+            <rect x="15" y="35" width="40" height="12" rx="3" fill="#f59e0b"/>
+            <text x="35" y="46" text-anchor="middle" fill="#0a1628" font-size="8" font-weight="700">KEY</text>
+            <rect x="70" y="33" width="44" height="16" rx="3" fill="#22c55e" opacity="0.8"/>
+            <text x="92" y="45" text-anchor="middle" fill="#fff" font-size="8" font-weight="600">BATTERY</text>
+            <circle cx="65" cy="68" r="8" fill="#60a5fa" opacity="0.7"/>
+            <text x="65" y="71" text-anchor="middle" fill="#fff" font-size="7">&#9786;</text>
+          </g>
+
+          <!-- POLES -->
+          <line x1="162" y1="110" x2="162" y2="165" stroke="#8b7355" stroke-width="3"/>
+          <line x1="152" y1="165" x2="172" y2="165" stroke="#8b7355" stroke-width="4"/>
+          <line x1="148" y1="113" x2="176" y2="113" stroke="#8b7355" stroke-width="2.5"/>
+          <circle cx="152" cy="113" r="4" fill="#6b7280"/>
+          <circle cx="172" cy="113" r="4" fill="#6b7280"/>
+
+          <line x1="260" y1="90" x2="260" y2="165" stroke="#8b7355" stroke-width="3"/>
+          <line x1="250" y1="165" x2="270" y2="165" stroke="#8b7355" stroke-width="4"/>
+          <line x1="246" y1="93" x2="274" y2="93" stroke="#8b7355" stroke-width="2.5"/>
+          <circle cx="250" cy="93" r="4" fill="#6b7280"/>
+          <circle cx="270" cy="93" r="4" fill="#6b7280"/>
+
+          <line x1="358" y1="110" x2="358" y2="165" stroke="#8b7355" stroke-width="3"/>
+          <line x1="348" y1="165" x2="368" y2="165" stroke="#8b7355" stroke-width="4"/>
+          <line x1="344" y1="113" x2="372" y2="113" stroke="#8b7355" stroke-width="2.5"/>
+          <circle cx="348" cy="113" r="4" fill="#6b7280"/>
+          <circle cx="368" cy="113" r="4" fill="#6b7280"/>
+
+          <!-- WIRES -->
+          <polyline points="160,112 162,112 260,93 358,112 360,112" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+          <polyline points="160,115 162,115 260,96 358,115 360,115" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+
+          <!-- Animated pulse -->
+          <circle r="5" fill="#f59e0b" opacity="0.9">
+            <animateMotion dur="2.5s" repeatCount="indefinite" path="M162,112 Q260,85 358,112"/>
+            <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" repeatCount="indefinite"/>
+          </circle>
+
+          <!-- STATION B -->
+          <g transform="translate(360,60)">
+            <rect width="130" height="80" rx="8" fill="#1e3a5f" stroke="#3b82f6" stroke-width="1.5"/>
+            <text x="65" y="22" text-anchor="middle" fill="#93c5fd" font-size="10" font-weight="700">STATION B</text>
+            <rect x="15" y="33" width="45" height="16" rx="3" fill="#8b5cf6" opacity="0.8"/>
+            <text x="37" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="600">SOUNDER</text>
+            <text x="72" y="44" fill="#f59e0b" font-size="8">&#8226;&#8212;&#8226;</text>
+            <circle cx="65" cy="68" r="8" fill="#60a5fa" opacity="0.7"/>
+            <text x="65" y="71" text-anchor="middle" fill="#fff" font-size="7">&#9786;</text>
+          </g>
+
+          <!-- MORSE CODE SECTION -->
+          <rect x="30" y="195" width="460" height="80" rx="10" fill="#0f2a50" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4,3"/>
+          <text x="260" y="216" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="700" letter-spacing="1">MORSE CODE ENCODING</text>
+          <text x="65" y="240" text-anchor="middle" fill="#f59e0b" font-size="18" font-weight="700">S</text>
+          <text x="65" y="258" text-anchor="middle" fill="#93c5fd" font-size="10">&#8226; &#8226; &#8226;</text>
+          <text x="120" y="240" text-anchor="middle" fill="#f59e0b" font-size="18" font-weight="700">O</text>
+          <text x="120" y="258" text-anchor="middle" fill="#93c5fd" font-size="10">&#8212; &#8212; &#8212;</text>
+          <text x="175" y="240" text-anchor="middle" fill="#f59e0b" font-size="18" font-weight="700">S</text>
+          <text x="175" y="258" text-anchor="middle" fill="#93c5fd" font-size="10">&#8226; &#8226; &#8226;</text>
+          <line x1="200" y1="225" x2="200" y2="265" stroke="#3b82f6" stroke-width="1" opacity="0.5"/>
+          <text x="215" y="230" fill="#94a3b8" font-size="9">ELECTRICAL SIGNAL:</text>
+          <polyline points="215,255 225,255 225,242 230,242 230,255 235,255 237,255 237,242 242,242 242,255 247,255 249,255 249,242 254,242 254,255 260,255 268,255 268,240 278,240 278,255 286,255 294,255 294,240 304,240 304,255 312,255 320,255 320,242 325,242 325,255 330,255 332,255 332,242 337,242 337,255 342,255 344,255 344,242 349,142 349,255 355,255 358,255 368,255 368,240 378,240 378,255 386,255 394,255 394,240 404,240 404,255 412,255 418,255 418,242 423,242 423,255 428,255 430,255 430,242 435,242 435,255 440,255 442,255 442,242 447,242 447,255 453,255 460,255"
+            fill="none" stroke="#22c55e" stroke-width="1.8"/>
+
+          <!-- TIMELINE -->
+          <rect x="30" y="290" width="460" height="70" rx="10" fill="#0f2a50" stroke="#1e40af" stroke-width="1"/>
+          <text x="260" y="310" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="700" letter-spacing="1">HISTORICAL MILESTONES</text>
+          <line x1="60" y1="340" x2="460" y2="340" stroke="#3b82f6" stroke-width="1.5"/>
+
+          <circle cx="80" cy="340" r="5" fill="#f59e0b"/>
+          <text x="80" y="330" text-anchor="middle" fill="#fcd34d" font-size="8" font-weight="700">1837</text>
+          <text x="80" y="358" text-anchor="middle" fill="#94a3b8" font-size="7">Telegraph</text>
+          <text x="80" y="367" text-anchor="middle" fill="#94a3b8" font-size="7">Invented</text>
+
+          <circle cx="180" cy="340" r="5" fill="#f59e0b"/>
+          <text x="180" y="330" text-anchor="middle" fill="#fcd34d" font-size="8" font-weight="700">1866</text>
+          <text x="180" y="358" text-anchor="middle" fill="#94a3b8" font-size="7">Atlantic</text>
+          <text x="180" y="367" text-anchor="middle" fill="#94a3b8" font-size="7">Cable</text>
+
+          <circle cx="270" cy="340" r="5" fill="#f59e0b"/>
+          <text x="270" y="330" text-anchor="middle" fill="#fcd34d" font-size="8" font-weight="700">1957</text>
+          <text x="270" y="358" text-anchor="middle" fill="#94a3b8" font-size="7">Sputnik 1</text>
+          <text x="270" y="367" text-anchor="middle" fill="#94a3b8" font-size="7">Launched</text>
+
+          <circle cx="360" cy="340" r="5" fill="#f59e0b"/>
+          <text x="360" y="330" text-anchor="middle" fill="#fcd34d" font-size="8" font-weight="700">1965</text>
+          <text x="360" y="358" text-anchor="middle" fill="#94a3b8" font-size="7">Intelsat I</text>
+          <text x="360" y="367" text-anchor="middle" fill="#94a3b8" font-size="7">Launched</text>
+
+          <circle cx="450" cy="340" r="5" fill="#22c55e"/>
+          <text x="450" y="330" text-anchor="middle" fill="#86efac" font-size="8" font-weight="700">2024+</text>
+          <text x="450" y="358" text-anchor="middle" fill="#94a3b8" font-size="7">HTS &amp;</text>
+          <text x="450" y="367" text-anchor="middle" fill="#94a3b8" font-size="7">Starlink</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TOPICS
+     ============================================================ -->
+<section id="topics">
+  <div class="container">
+    <span class="section-label"><i class="fas fa-book"></i> Course Summary</span>
+    <h2 class="section-title">What I Have Studied</h2>
+    <p class="section-desc">A summary of key topics covered in the Data Communication course,
+    from orbital mechanics to signal theory.</p>
+
+    <div class="topics-grid">
+      <div class="topic-card">
+        <div class="topic-icon"><i class="fas fa-satellite"></i></div>
+        <h3>Orbital Mechanics &amp; Satellite Types</h3>
+        <p>Explored Low Earth Orbit (LEO), Medium Earth Orbit (MEO), and Geostationary Orbit (GEO) satellites.
+        Understood the trade-offs between coverage, latency, and signal strength at different altitudes. LEO
+        satellites like Starlink orbit at 550&ndash;1,200 km for low latency; GEO satellites at 35,786 km
+        for wide, stable coverage.</p>
+      </div>
+      <div class="topic-card">
+        <div class="topic-icon"><i class="fas fa-wave-square"></i></div>
+        <h3>Frequency Spectrum Management</h3>
+        <p>Studied the C, Ku, Ka, and Q/V frequency bands used in satellite communications. Each band offers
+        different trade-offs between bandwidth, weather susceptibility, and dish size. The ITU governs
+        international spectrum allocation to prevent interference between satellite systems.</p>
+      </div>
+      <div class="topic-card">
+        <div class="topic-icon"><i class="fas fa-signal"></i></div>
+        <h3>Signal Modulation &amp; Link Budget</h3>
+        <p>Examined PSK, QAM, turbo codes, and LDPC encoding. The DVB-S2 and DVB-S2X standards use adaptive
+        coding and modulation (ACM) to adjust signal parameters in real time based on weather and link quality
+        &mdash; maximizing throughput while maintaining reliability.</p>
+      </div>
+      <div class="topic-card">
+        <div class="topic-icon"><i class="fas fa-globe"></i></div>
+        <h3>High-Throughput Satellites (HTS)</h3>
+        <p>Learned how HTS systems like ViaSat-1/2/3 and SES O3b mPOWER use hundreds of spot beams to reuse
+        frequencies spatially, multiplying capacity without additional spectrum. A single HTS satellite can
+        deliver over 1 Tbps &mdash; more than all previous commercial satellites combined at launch.</p>
+      </div>
+      <div class="topic-card">
+        <div class="topic-icon"><i class="fas fa-network-wired"></i></div>
+        <h3>Satellite vs. Terrestrial Networks</h3>
+        <p>Compared satellite and ground-based networks across latency, cost, coverage, and reliability
+        dimensions. Satellite excels at remote and mobile coverage; fiber and 5G win on speed, latency, and
+        cost-per-bit. The future lies in intelligent hybrid systems that route traffic over the best link.</p>
+      </div>
+      <div class="topic-card">
+        <div class="topic-icon"><i class="fas fa-triangle-exclamation"></i></div>
+        <h3>Challenges: Latency, Debris &amp; Security</h3>
+        <p>Investigated propagation delay (480&ndash;600 ms for GEO), the growing problem of space debris
+        (23,000+ tracked objects), atmospheric attenuation from rain, and cybersecurity vulnerabilities in
+        satellite control channels. Also explored AI-powered smart satellites and 6G integration.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     VIDEO
+     ============================================================ -->
+<section id="video">
+  <div class="container">
+    <span class="section-label"><i class="fas fa-video"></i> Watch &amp; Learn</span>
+    <h2 class="section-title">Data Communication in Action</h2>
+    <p class="section-desc">Watch this video to dive deeper into the concepts studied &mdash;
+    from signal transmission to modern satellite networks.</p>
+    <div class="video-wrap">
+      <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/bC9LOAoGUI4"
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          title="Data Communication Video"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     INSPIRATION
+     ============================================================ -->
+<section id="inspiration">
+  <div class="container">
+    <span class="section-label"><i class="fas fa-star"></i> What Drives Me</span>
+    <h2 class="section-title">What Inspires Me</h2>
+
+    <div class="inspire-grid">
+      <div class="inspire-card">
+        <span class="inspire-icon"><i class="fas fa-earth-americas"></i></span>
+        <h3>Connecting the Unconnected</h3>
+        <p>Over 2.6 billion people still lack internet access. The idea that satellite technology and smart
+        networks could bridge this digital divide &mdash; giving a student in a remote village the same
+        access as someone in a major city &mdash; is what gets me out of bed every morning.</p>
+      </div>
+      <div class="inspire-card">
+        <span class="inspire-icon"><i class="fas fa-rocket"></i></span>
+        <h3>The Pace of Innovation</h3>
+        <p>From Sputnik in 1957 to Starlink&rsquo;s constellation of thousands of LEO satellites today, the
+        speed of progress in space communication is breathtaking. I am inspired by the engineers who keep
+        pushing beyond what seems possible &mdash; and I want to be among them.</p>
+      </div>
+      <div class="inspire-card">
+        <span class="inspire-icon"><i class="fas fa-lightbulb"></i></span>
+        <h3>Curiosity &amp; Problem-Solving</h3>
+        <p>Every challenge in data communication &mdash; rain fade, propagation latency, spectrum scarcity
+        &mdash; has been met with creative engineering solutions. That spirit of curiosity-driven
+        problem-solving is what I aim to embody in my own career and studies.</p>
+      </div>
+      <div class="inspire-card">
+        <span class="inspire-icon"><i class="fas fa-microchip"></i></span>
+        <h3>Africa&rsquo;s Digital Future</h3>
+        <p>As a Ghanaian IT student, I am deeply inspired by the potential of satellite and broadband
+        technology to accelerate Africa&rsquo;s development &mdash; enabling e-commerce, telemedicine,
+        e-learning, and smart agriculture across the continent&rsquo;s vast, underserved regions.</p>
+      </div>
+    </div>
+
+    <div class="inspire-quote">
+      &ldquo;The universe is under no obligation to make sense to you. But if you study hard enough,
+      long enough &mdash; you begin to make sense of it yourself. That is the gift of education.&rdquo;
+      <strong>&mdash; Joel Nii Amartey Mensah, Data Communication Student</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     RESOURCES
+     ============================================================ -->
+<section id="resources">
+  <div class="container">
+    <span class="section-label"><i class="fas fa-link"></i> Resources</span>
+    <h2 class="section-title">Links &amp; References</h2>
+    <p class="section-desc">Access my assignment, view my GitHub repository, and explore
+    additional learning materials.</p>
+
+    <div class="resources-grid">
+      <div class="resource-card pdf-card">
+        <div class="pdf-card-header">
+          <div class="resource-icon" style="color: #dc2626;"><i class="fas fa-file-pdf"></i></div>
+          <div class="pdf-meta">
+            <span class="pdf-badge">PDF &bull; 718 KB</span>
+            <span class="pdf-pages">27 pages</span>
+          </div>
+        </div>
+        <h3>Assignment PDF</h3>
+        <p>Evolution of Satellite Communication and its Role in the Modern Global Data Infrastructure &mdash;
+        submitted for Data Communication, BSc. IT, Level 200.</p>
+        <div class="pdf-preview-thumb" aria-hidden="true">
+          <div class="pdf-thumb-inner">
+            <i class="fas fa-satellite" style="font-size:2rem; color:#dc2626; opacity:0.7;"></i>
+            <span>Satellite Communication</span>
+            <span class="pdf-thumb-sub">Evolution &amp; Global Data Infrastructure</span>
+          </div>
+        </div>
+        <div class="pdf-actions">
+          <a href="other pages/view-pdf.html"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="resource-link pdf-open-btn">
+            <i class="fas fa-external-link-alt"></i> Open &amp; Read PDF
+          </a>
+          <a href="files/Principles_and_Applications_of_Satellite.pdf"
+             download="Joel_Mensah_DataComm_Assignment.pdf"
+             class="resource-link pdf-download-btn outline">
+            <i class="fas fa-download"></i> Download PDF
+          </a>
+        </div>
+      </div>
+
+      <div class="resource-card github-card">
+        <div class="resource-icon" style="color: #1f2937;"><i class="fab fa-github"></i></div>
+        <h3>GitHub Repository</h3>
+        <p>View the full source code and files for this Data Communication Assignment project on GitHub,
+        including all HTML, assets, and documentation.</p>
+        <div class="github-actions">
+          <a href="https://github.com/Joel-Mensah/Data_Communication_Work" target="_blank" class="resource-link outline">
+            <i class="fab fa-github"></i> View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="further-reading">
+      <h3>Further Reading</h3>
+      <iframe height="315"
+        src="https://www.youtube.com/embed/vFypCugyFoM?si=mfWyIpE8n9KmRpNh"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     COURSES & RESOURCES
+     ============================================================ -->
+<section id="courses">
+  <div class="container">
+    <div class="courses-header">
+      <div class="courses-header-text">
+        <span class="section-label"><i class="fas fa-folder-open"></i> My Learning Hub</span>
+        <h2 class="section-title">Courses &amp; Resources</h2>
+        <p class="section-desc">Add your courses and attach resources — PDFs, links, videos, and more. Resources can be viewed or downloaded anytime.</p>
+      </div>
+      <button class="btn-add-course" id="btn-open-add-course">
+        <i class="fas fa-plus"></i> Add Course
+      </button>
+    </div>
+
+    <div id="courses-list" class="courses-list"></div>
+    <div id="courses-empty" class="courses-empty">
+      <i class="fas fa-graduation-cap"></i>
+      <p>No courses yet. Start by adding your first course!</p>
+      <button class="btn-add-course" onclick="openAddCourseModal()">
+        <i class="fas fa-plus"></i> Add Your First Course
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TOAST CONTAINER
+     ============================================================ -->
+<div class="toast-container" id="toast-container"></div>
+
+<!-- ============================================================
+     MODAL: ADD COURSE
+     ============================================================ -->
+<div class="modal-overlay" id="modal-add-course" role="dialog" aria-modal="true" aria-labelledby="modal-course-title">
+  <div class="modal-box">
+    <div class="modal-header">
+      <span class="modal-title" id="modal-course-title"><i class="fas fa-folder-plus" style="color:var(--blue);margin-right:0.5rem;"></i>Add New Course</span>
+      <button class="modal-close" id="btn-close-course-modal" aria-label="Close"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label" for="course-name-input">Course Name</label>
+        <input type="text" id="course-name-input" class="form-input" placeholder="e.g. Data Communication" maxlength="80" />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="course-code-input">Course Code <span style="font-weight:400;text-transform:none;color:var(--gray);">(optional)</span></label>
+        <input type="text" id="course-code-input" class="form-input" placeholder="e.g. IT 2114" maxlength="30" />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="course-desc-input">Short Description <span style="font-weight:400;text-transform:none;color:var(--gray);">(optional)</span></label>
+        <textarea id="course-desc-input" class="form-textarea" placeholder="What is this course about?" rows="2"></textarea>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-modal-cancel" id="btn-cancel-course">Cancel</button>
+      <button class="btn-modal-save" id="btn-save-course"><i class="fas fa-check" style="margin-right:0.4rem;"></i>Save Course</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     MODAL: ADD RESOURCE
+     ============================================================ -->
+<div class="modal-overlay" id="modal-add-resource" role="dialog" aria-modal="true" aria-labelledby="modal-resource-title">
+  <div class="modal-box">
+    <div class="modal-header">
+      <span class="modal-title" id="modal-resource-title"><i class="fas fa-paperclip" style="color:var(--blue);margin-right:0.5rem;"></i>Add Resource</span>
+      <button class="modal-close" id="btn-close-resource-modal" aria-label="Close"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Resource Type</label>
+        <div class="resource-type-tabs" id="resource-type-tabs">
+          <button class="resource-type-tab active" data-type="link"><i class="fas fa-link"></i> Link / URL</button>
+          <button class="resource-type-tab" data-type="pdf"><i class="fas fa-file-pdf"></i> PDF File</button>
+          <button class="resource-type-tab" data-type="doc"><i class="fas fa-file-word"></i> Document</button>
+          <button class="resource-type-tab" data-type="video"><i class="fas fa-video"></i> Video</button>
+          <button class="resource-type-tab" data-type="image"><i class="fas fa-image"></i> Image</button>
+          <button class="resource-type-tab" data-type="file"><i class="fas fa-file"></i> Other File</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="resource-title-input">Resource Title</label>
+        <input type="text" id="resource-title-input" class="form-input" placeholder="e.g. Week 3 Lecture Slides" maxlength="100" />
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="resource-desc-input">Description <span style="font-weight:400;text-transform:none;color:var(--gray);">(optional)</span></label>
+        <input type="text" id="resource-desc-input" class="form-input" placeholder="Brief description of the resource" maxlength="150" />
+      </div>
+
+      <!-- URL input (for link/video) -->
+      <div class="form-group" id="resource-url-group">
+        <label class="form-label" for="resource-url-input">URL / Link</label>
+        <input type="url" id="resource-url-input" class="form-input" placeholder="https://..." />
+      </div>
+
+      <!-- File upload (for pdf/doc/image/file) -->
+      <div class="form-group" id="resource-file-group" style="display:none;">
+        <label class="form-label">Upload File</label>
+        <div class="file-drop-zone" id="file-drop-zone">
+          <input type="file" id="resource-file-input" />
+          <i class="fas fa-cloud-upload-alt"></i>
+          <p>Click to choose a file or drag &amp; drop</p>
+          <small>PDF, DOC, DOCX, JPG, PNG, MP4, and more</small>
+          <div class="file-chosen-name" id="file-chosen-name"></div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-modal-cancel" id="btn-cancel-resource">Cancel</button>
+      <button class="btn-modal-save" id="btn-save-resource"><i class="fas fa-check" style="margin-right:0.4rem;"></i>Add Resource</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <p class="footer-name">Joel Nii Amartey Mensah</p>
+  <p style="margin-top:0.4rem;">
+    PUIT/24110004 &nbsp;&bull;&nbsp; BSc. Information Technology &nbsp;&bull;&nbsp; Data Communication
+  </p>
+  <p style="margin-top:1rem;">
+    <a href="https://github.com/Joel-Mensah/Data_Communication_Work" target="_blank">
+      <i class="fab fa-github"></i> GitHub Repository
+    </a>
+    &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+    <a href="#home"><i class="fas fa-arrow-up"></i> Back to Top</a>
+  </p>
+  <p style="margin-top:1rem; font-size:0.82rem; opacity:0.5;">
+    Data Communication Assignment &mdash; 2024/2025 Academic Year &nbsp;&bull;&nbsp; Pentecost University
+  </p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
